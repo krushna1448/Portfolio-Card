@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.card {
+    max-width: 400px;
+    width: 100%;
+    padding: 35px;
+    text-align: center;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 20px;
+}
+
+.avatar {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #06b6d4;
+    color: #0f172a;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 27px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: #22d3ee;
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+p {
+    color: #cbd5e1;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.skills span {
+    padding: 8px 12px;
+    background: #334155;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #06b6d4;
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+a:hover {
+    background: #67e8f9;
+}
